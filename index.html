@@ -1,32 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
-    <link rel="stylesheet" href="css/base.css">
-</head>
-<body>
 
+<head>
+    <meta charset="UTF-8" />
+    <title>FIGMA | Макеты для верстки — Верстка страницы</title>
+    <meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
     <!-- Начало: Данный блок удалять нельзя -->
     <div class="maketforfigma">
         <a href="https://t.me/s/FigmaToHTML" target="_blank">
-            <img src="img/logo.png">
+            <img src="img/logo.png" />
         </a>
         <div>
             <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
+                Данная верстка, была реализована пользователем в рамках
+                обучающего телеграм канал
+                <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
             </p>
             <p>
-                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
+                При помощи
+                <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a>
+                пользователь получил оплату за верстку этого макета.
             </p>
         </div>
     </div>
     <!-- Конец -->
 
     <div class="main">
-        В данном блоке размещается верстка
-    </div>
 
+        <div class="background">
+            <img class="background__img background__img-top" src="img/HG.jpg" alt="">
+            <img class="background__img background__img-center" src="img/MG.png" alt="">
+            <img class="background__img background__img-bottom" src="img/VG.png" alt="">
+
+            <header class="header">
+                <div class="container header__container">
+                    <nav class="nav__menu">
+                        <div class="nav__menu-item">
+                            <a class="nav__menu-logo__link" href="#">
+                                <img class="nav__menu-logo" src="img/logo-site.svg" alt="logo" />
+                            </a>
+                        </div>
+                        <div class="nav__menu-item">
+                            <ul class="nav__menu-list">
+                                <li class="nav__menu-list__item">
+                                    <a class="nav__menu-item__link" href="#">Equipment</a>
+                                </li>
+                                <li class="nav__menu-list__item">
+                                    <a class="nav__menu-item__link" href="#">About us</a>
+                                </li>
+                                <li class="nav__menu-list__item">
+                                    <a class="nav__menu-item__link" href="#">Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav__menu-item nav__menu-item--account">
+                            <a href="#" class="nav__menu-item__link nav__menu-item__link--account">Account</a>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+        </div>
+
+        <section class="top" id="start">
+            <div class="container top__container">
+                <div class="top__wrapper">
+                    <div class="top__social">
+                        <span class="top__social-follow">
+                            Follow us
+                        </span>
+                        <a class="top__social-link" href="#"><img class="top__social-icon" src="img/instagram.svg" alt=""></a>
+                        <a class="top__social-link" href="#"><img class="top__social-icon" src="img/twitter.svg" alt=""></a>
+                    </div>
+                    <div class="top__text">
+                        <p class="top__subtitle">
+                            A Hiking guide
+                        </p>
+                        <h1 class="top__title">
+                            Be prepared for the Mountains and beyond!
+                        </h1>
+                        <button class="top__button">
+                            scroll down
+                            <img src="img/icon-arrow.svg" alt="">
+                        </button>
+                    </div>
+                    <nav class="top__nav">
+                        <ul class="top__nav-menu">
+                            <li class="top__nav-menu__item"><a href="#start" class="top__nav-menu__link">Start</a></li>
+                            <li class="top__nav-menu__item"><a href="#get-started" class="top__nav-menu__link">01</a></li>
+                            <li class="top__nav-menu__item"><a href="#hiking-essentials" class="top__nav-menu__link">02</a></li>
+                            <li class="top__nav-menu__item"><a href="#map-timing" class="top__nav-menu__link">03</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--get-started" id="get-started">
+            <div class="container">
+                <div class="section__wrapper">
+                    <div class="section__textbox">
+                        <p class="section__subtitle">
+                            Get Started
+                        </p>
+                        <h2 class="section__title">
+                            What level of hiker are you?
+                        </h2>
+                        <p class="section__text">
+                            Determining what level of hiker you are can be an important tool when planning future hikes.
+                            This hiking
+                            level guide will help you plan hikes according to different hike ratings set by various
+                            websites
+                            like
+                            All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced
+                            moderate,
+                            expert,
+                            or expert backpacker?
+                        </p>
+                        <button class="section__button">
+                            read more
+                            <img class="section__button-img" src="img/ic-arrow-section.svg" alt="">
+                        </button>
+                    </div>
+                    <img class="section__img" src="img/card1.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--hiking-essentials" id="hiking-essentials">
+            <div class="container">
+                <div class="section__wrapper">
+                    <img class="section__img" src="img/card2.jpg" alt="">
+                    <div class="section__textbox">
+                        <p class="section__subtitle">
+                            Hiking Essentials
+                        </p>
+                        <h2 class="section__title">
+                            Picking the right Hiking Gear!
+                        </h2>
+                        <p class="section__text">
+                            The nice thing about beginning hiking is that you don’t really need any special gear, you
+                            can probably get away with things you already have.
+                            Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and
+                            regular clothes, which will get heavy and chafe wif they get sweaty or wet.
+                        </p>
+                        <button class="section__button">
+                            read more
+                            <img class="section__button-img" src="img/ic-arrow-section.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--map-timing" id="map-timing">
+            <div class="container">
+                <div class="section__wrapper">
+                    <div class="section__textbox">
+                        <p class="section__subtitle">
+                            where you go is the key
+                        </p>
+                        <h2 class="section__title">
+                            Understand Your Map & Timing
+                        </h2>
+                        <p class="section__text">
+                            To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag.
+                            Read over the guide, study the map, and have a good idea of what to expect. I like to know
+                            what my next landmark is as I hike. For example, I’ll read the guide and know that say, in a
+                            mile, I make a right turn at the junction..
+                        </p>
+                        <button class="section__button">
+                            read more
+                            <img class="section__button-img" src="img/ic-arrow-section.svg" alt="">
+                        </button>
+                    </div>
+                    <img class="section__img" src="img/card3.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        </section> 
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__left">
+                        <img class="footer__logo" src="img/logo-site.svg" alt="">
+                        <p class="footer__text">
+                            Get out there & discover your next slope, mountain & destination!
+                        </p>
+                        <span class="footer__copy">
+                            Copyright 2019 MNTN, Inc. Terms & Privacy
+                        </span>
+                    </div>
+                    <div class="footer__right">
+                        <nav class="footer__nav">
+                            <h5 class="footer__title">More on The Blog</h5>
+                            <ul class="footer__nav-menu">
+                                <li class="footer__nav-menu__item">
+                                    <a class="footer__nav-menu__item-link" href="#">
+                                        About MNTN
+                                    </a>
+                                </li>
+                                <li class="footer__nav-menu__item">
+                                    <a class="footer__nav-menu__item-link" href="#">
+                                        Contributors & Writers
+                                    </a>
+                                </li>
+                                <li class="footer__nav-menu__item">
+                                    <a class="footer__nav-menu__item-link" href="#">
+                                        Write For Us
+                                    </a>
+                                </li>
+                                <li class="footer__nav-menu__item">
+                                    <a class="footer__nav-menu__item-link" href="#">
+                                        Contact Us
+                                    </a>
+                                </li>
+                                <li class="footer__nav-menu__item">
+                                    <a class="footer__nav-menu__item-link" href="#">
+                                        Privacy Policy
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <nav class="footer__nav">
+                            <h5 class="footer__title">More on MNTN</h5>
+                            <ul class="footer__nav-menu">
+                                <li class="footer__nav-menu__item">
+                                    <a class="footer__nav-menu__item-link" href="#">
+                                        The Team
+                                    </a>
+                                </li>
+                                <li class="footer__nav-menu__item">
+                                    <a class="footer__nav-menu__item-link" href="#">
+                                        Jobs
+                                    </a>
+                                </li>
+                                <li class="footer__nav-menu__item">
+                                    <a class="footer__nav-menu__item-link" href="#">
+                                        Press
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>
